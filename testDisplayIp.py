@@ -3,7 +3,7 @@
 from subprocess import *
 from time import sleep, strftime
 from datetime import datetime
-import Adafruit_CharLCD as LCD
+import Adafruit_CharLCD as lcd
 
 cmd = "ip addr show eth0 | grep inet | awk '{print $2}' | cut -d/ -f1"
  
